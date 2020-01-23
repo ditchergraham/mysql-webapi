@@ -23,7 +23,7 @@ If you do provide an API key but the key is not in the database, then a JSON ser
 }
 ```
 
-## Instalation
+## Installation
 Navigate the code or clone:
 https://github.com/ferran1/Web-API-MySQL.git
 
