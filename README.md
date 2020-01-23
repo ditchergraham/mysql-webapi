@@ -38,7 +38,7 @@ https://github.com/ferran1/Web-API-MySQL.git
 |   |-- used_by (optional)
 ```
 
-### Following, you'll need to specify your MySQL details in the env folder
+### Following, you'll need to specify your MySQL details in the env folder. This data is needed in ./models/DatabaseModel.php to connect to the database server
 * `./env/database.txt` -> Enter the name of your database.
 * `./env/host.txt` -> Enter the name of your host
 * `./env/password.txt` -> Enter the password of your database user
@@ -53,3 +53,7 @@ Send a POST request to the following URL if you installed the project locally us
 http://localhost/web-api/Login.php
 
 If you specified the correct api_key, email of the user and the password of the user, the API should return `"code": 200,` in JSON format.
+
+### DatabaseModel
+The database model is user to make a connection to the database.
+If you want to further expand your application, you can use the CRUD functions in this model. 
