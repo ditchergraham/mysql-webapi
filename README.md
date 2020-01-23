@@ -23,7 +23,7 @@ If you do provide an API key but the key is not in the database, then a JSON ser
 }
 ```
 
-## Usage
+## Instalation
 Navigate the code or clone:
 https://github.com/ferran1/Web-API-MySQL.git
 
@@ -43,3 +43,5 @@ https://github.com/ferran1/Web-API-MySQL.git
 * `./env/host.txt` -> Enter the name of your host
 * `./env/password.txt` -> Enter the password of your database user
 * `./env/user.txt` -> Enter the username of your database user
+
+## Usage
