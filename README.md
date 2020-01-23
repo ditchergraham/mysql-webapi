@@ -10,7 +10,7 @@ Web API than can be used by an application to connect with MySQL
 Navigate the code or clone:
 https://github.com/ferran1/Web-API-MySQL.git
 
-### In order to succesfully use this API, you'll need to create a MySQL database with the at least the following tables:
+### In order to succesfully use this API, you'll need to create a MySQL database with the at least the following 2 tables:
 
 ```markdown
 |-- user
