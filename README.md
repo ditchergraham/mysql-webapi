@@ -1,12 +1,12 @@
 # Web-API-MySQL
 Web API than can be used by an application to connect with MySQL
 
-# Requirments to locally run this API
+## Requirments to locally run this API
 * MySQL 
 * XAMPP
 * Git client (Git bash, Fork, etc)
 
-# Usage
+## Usage
 Navigate the code or clone:
 https://github.com/ferran1/Web-API-MySQL.git
 
