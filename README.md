@@ -49,7 +49,7 @@ https://github.com/ferran1/Web-API-MySQL.git
 ### Login
 In order to succesfully login from an application, send a POST request with the 3 parameters (email, password, api_key) to the login script.
 
-Correct login API URL if the the project is locally installed using XAMPP (without params):
+Correct login API URL if the the project is installed locally using XAMPP (without params):
 http://localhost/web-api/Login.php
 
 If the correct api_key, email of the user and the password of the user were specified, the API should return `"code": 200,` in JSON format.
