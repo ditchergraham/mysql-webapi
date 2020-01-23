@@ -56,4 +56,4 @@ If the correct api_key, email of the user and the password of the user were spec
 
 ### DatabaseModel
 The database model is user to make a connection to the database.
-If you want to further expand your application, you can use the CRUD functions in this model. 
+If you want to further expand your application, you can use the CRUD operations in this model. 
