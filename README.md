@@ -27,7 +27,7 @@ If an API key is provided but the key can't be foud in the system, then a JSON s
 Navigate the code or clone:
 https://github.com/ferran1/Web-API-MySQL.git
 
-### In order to succesfully use this API, a MySQL database with the at least the following 2 tables:
+### In order to succesfully use this API, a MySQL database with the at least the following 2 tables is needed:
 
 ```markdown
 |-- user
@@ -49,7 +49,7 @@ https://github.com/ferran1/Web-API-MySQL.git
 ### Login
 In order to succesfully login from an application, send a POST request with the 3 parameters (email, password, api_key) to the login script.
 
-Correct URL if the the project is locally installed using XAMPP (with params):
+Correct login API URL if the the project is locally installed using XAMPP (with params):
 http://localhost/web-api/Login.php
 
 If the correct api_key, email of the user and the password of the user were specified, the API should return `"code": 200,` in JSON format.
