@@ -38,3 +38,8 @@ https://github.com/ferran1/Web-API-MySQL.git
 |   |-- used_by (optional)
 ```
 
+### Following, you'll need to specify your MySQL details in the env folder
+* `./env/database.txt` -> Enter the name of your database.
+* `./env/host.txt` -> Enter the name of your host
+* `./env/password.txt` -> Enter the password of your database user
+* `./env/user.txt` -> Enter theusername of your database user
