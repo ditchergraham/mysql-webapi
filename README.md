@@ -52,4 +52,4 @@ In order to succesfully login from an application, you will have to send a POST 
 Send a POST request to the following URL if you installed the project locally using XAMPP (with params):
 http://localhost/web-api/Login.php
 
-If you specified the correct api_key, email of the user and the password of the user, the API should return `"code": 401,` in JSON format.
+If you specified the correct api_key, email of the user and the password of the user, the API should return `"code": 200,` in JSON format.
