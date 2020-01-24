@@ -51,7 +51,7 @@ In order to succesfully login from an application, send a POST request with the 
 Correct login API URL if the the project is installed locally using XAMPP (without params):
 http://localhost/web-api/Login.php
 
-If the correct api_key, email of the user and the password of the user were specified, the API should return `"code": 200,` in JSON format.
+If the correct api_key, email of the user and the password of the user were specified, the API should return `"code": 200` in JSON format.
 
 ### DatabaseModel
 The database model is user to make a connection to the database.
