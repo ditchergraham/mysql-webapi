@@ -1,9 +1,8 @@
 # Web-API-MySQL
 Web API than can be used by an application to connect with MySQL
 
-## Requirments to locally run this API
+## Requirments 
 * MySQL 
-* XAMPP
 * Git client (Git bash, Fork, etc)
 
 ## Guidelines
@@ -38,7 +37,7 @@ https://github.com/ferran1/Web-API-MySQL.git
 |   |-- used_by (optional)
 ```
 
-### Following, This data is needed in ./models/DatabaseModel.php to connect to the database server
+### The following data is needed in ./models/DatabaseModel.php to connect to the database server
 * `./env/database.txt` -> Enter the name of your database.
 * `./env/host.txt` -> Enter the name of your host
 * `./env/password.txt` -> Enter the password of your database user
