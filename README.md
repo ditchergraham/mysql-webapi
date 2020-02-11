@@ -7,14 +7,14 @@ Web API than can be used by an application to connect with MySQL
 
 ## Guidelines
 The login API expects the user to provide an API key.
-If no API key is provided? Then a JSON series is returned to the API with the following information:
+If no API key is provided, then a JSON series is returned to the API with the following information:
 ```JSON
 {
     "code": 403,
     "message": "Access denied. There's no API key specified. Please specify an API key."
 }
 ``` 
-If an API key is provided but the key can't be foud in the system, then a JSON series is returned with the following information: 
+If an API key is provided but the key can't be founnd in the system, then a JSON series is returned with the following information: 
 ```JSON
 {
     "code": 403,
@@ -48,7 +48,7 @@ https://github.com/ferran1/Web-API-MySQL.git
 ### Login
 In order to succesfully login from an application, send a POST request with the 3 parameters (email, password, api_key) to the login script.
 
-Correct login API URL if the the project is installed locally using XAMPP (without params):
+Correct login API URL if the the project is installed locally (without params):
 http://localhost/web-api/Login.php
 
 If the correct api_key, email of the user and the password of the user were specified, the API should return `"code": 200` in JSON format.
