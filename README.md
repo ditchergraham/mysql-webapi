@@ -1,4 +1,4 @@
-# Web-API-MySQL
+# MySQL-Webapi
 Web API than can be used to connect with MySQL
 
 ## Requirements 
