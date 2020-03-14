@@ -1,7 +1,7 @@
 # Web-API-MySQL
 Web API than can be used to connect with MySQL
 
-## Requirments 
+## Requirements 
 * MySQL 
 * Git client (Git bash, Fork, etc)
 
