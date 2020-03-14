@@ -56,3 +56,6 @@ If the correct api_key, email of the user and the password of the user were spec
 ### DatabaseModel
 The database model is user to make a connection to the database.
 If you want to further expand your application, you can use the other CRUD operations in this model. 
+
+## License
+[MIT License](https://github.com/ferran1/mysql-webapi/blob/master/LICENSE)
