@@ -1,5 +1,5 @@
 # Web-API-MySQL
-Web API than can be used by an application to connect with MySQL
+Web API than can be used to connect with MySQL
 
 ## Requirments 
 * MySQL 
